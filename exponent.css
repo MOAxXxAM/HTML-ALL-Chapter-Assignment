@@ -1,0 +1,50 @@
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+nav a:hover{
+    color: rgb(46, 255, 46);
+}
+nav li{
+    list-style-type: none;
+    
+    margin: 20px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+nav{
+    background-color: rgb(59, 56, 56);
+    width: 80rem;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    
+}
+table,td,th{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+
+table{
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: x-large;
+    border-spacing: 10px;
+}
+th{
+    background-color: rgb(150, 198, 238);
+}
+.left-col{
+    background-color: rgb(186, 240, 198);
+}
+.right-col{
+    background-color: rgb(233, 228, 200);
+}
